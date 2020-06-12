@@ -1,0 +1,99 @@
+/* --------------------------Special Padding/Margin */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* --------------------------Colours */
+
+.background{
+    background: lightgrey;
+}
+
+/* --------------------------Home Page - Landing Section */
+
+.hero-image{
+    height: 100vh;
+    padding: 0;
+}
+
+.map-image{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#st-pauls {
+    position: absolute;
+    top: 175px;
+    color: white;
+    right: 540px;
+    font-size: 2rem;
+}
+
+#st-pauls:hover {
+    color: rgb(0, 255, 179);
+}
+
+#redfield {
+    position: absolute;
+    top: 375px;
+    color: white;
+    right: 130px;
+    font-size: 2rem;
+}
+
+#redfield:hover {
+    color: rgb(0, 255, 179);
+}
+
+#redland {
+    position: absolute;
+    top: 70px;
+    color: white;
+    left: 420px;
+    font-size: 2rem;
+}
+
+#redland:hover {
+    color: rgb(0, 255, 179);
+}
+
+#innercity {
+    position: absolute;
+    top: 490px;
+    color: white;
+    left: 780px;
+    font-size: 2rem;
+}
+
+#innercity:hover {
+    color: rgb(0, 255, 179);
+}
+
+#southville {
+    position: absolute;
+    bottom: 80px;
+    color: white;
+    left: 420px;
+    font-size: 2rem;
+}
+
+#southville:hover {
+    color: rgb(0, 255, 179);
+}
+
+#redcliff {
+    position: absolute;
+    bottom: 220px;
+    color: white;
+    left: 785px;
+    font-size: 2rem;
+}
+
+#redcliff:hover {
+    color: rgb(0, 255, 179);
+}
